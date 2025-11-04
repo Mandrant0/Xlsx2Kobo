@@ -2,6 +2,11 @@
 Un outil pour transformer un fichier Excel (.xlsx) en données XML et téléchargement vers la plateforme KoboToolbox.
 Version de python utilisé: 3.13.5
 
+# Créer un environnement virtuel
+```
+python -m venv venv
+```
+
 ## Installer les packages nécessaires et transformer les données en format xml
 
 ```
