@@ -18,10 +18,12 @@ pip install -r requirements.txt
 python xlsx2xml.py data.xlsx
 
 ## Préparer le fichier Excel en suivant les règles de mise en forme suivant
-1. Le fichier excel doit contenir la feuille ```IDSheet``` (après la feuille contenant les données). Cette feuille contient les constantes `Token` et `ID du formulaire` comme dans l'exemple suivant: 
+1. Le fichier excel doit contenir la feuille ```IDSheet``` (après la feuille contenant les données). Cette feuille contient les constantes `Token` et `ID du formulaire` comme dans l'exemple suivant:
+   
 |ID du formulaire|a7baHDrXP8tRzfBdVeJVPY|
 |-----|----|
-|Token|0aded612c72ed182e017dca80a17dd71b97b7225|
+|Token|0aded612c72ed182e017dca80a17dd71b97b7225| 
+
 3. Les entêtes des colonnes dans l'onglet des données doivent être le format xml
 5. \_\_version\_\_ et les autres colonnes de métadonnées doivent suivre les colonnes de données. \_\_version\_\_ est la premièer colonne après le contenu.
 6. Formatez toutes les cellules en format texte.
