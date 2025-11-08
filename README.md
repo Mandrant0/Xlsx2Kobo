@@ -2,7 +2,7 @@
 Un outil pour transformer un fichier Excel (.xlsx) en données XML et téléchargement vers la plateforme KoboToolbox.  
 Version de python utilisé: 3.13.5
 
-Après avoir cloner ce dépôt en local, suivez les étapes suivantes
+Après avoir cloné ce dépôt en local, suivez les étapes suivantes
 
 ## Créer et activez un environnement virtuel
 ```bash
